@@ -1,0 +1,368 @@
+2014/08/22 13:51:30 [23135] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 13:51:30 [23135] rsync error: error in rsync protocol data stream (code 12) at io.c(226) [sender=3.1.0]
+2014/08/22 13:55:17 [23152] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 13:55:17 [23152] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 13:56:18 [23162] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 13:56:18 [23162] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 14:01:32 [23248] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 14:01:32 [23248] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 14:02:47 [23258] building file list
+2014/08/22 14:02:47 [23258] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 14:02:47 [23258] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 14:02:47 [23258] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 14:02:47 [23258] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 14:02:47 [23258] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 14:02:47 [23258] sent 593 bytes  received 105 bytes  total size 228
+2014/08/22 14:04:48 [23274] building file list
+2014/08/22 14:04:48 [23274] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 14:04:48 [23274] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 14:04:48 [23274] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 14:04:48 [23274] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 14:04:48 [23274] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 14:04:48 [23274] sent 593 bytes  received 105 bytes  total size 228
+2014/08/22 14:33:05 [23488] building file list
+2014/08/22 14:33:05 [23488] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 14:33:05 [23488] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 14:33:05 [23488] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 14:33:05 [23488] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 14:33:05 [23488] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 14:33:05 [23488] sent 593 bytes  received 105 bytes  total size 228
+2014/08/22 14:35:06 [23501] building file list
+2014/08/22 14:35:06 [23501] sent 186 bytes  received 26 bytes  total size 228
+2014/08/22 15:20:57 [23725] building file list
+2014/08/22 15:20:57 [23725] sent 186 bytes  received 26 bytes  total size 228
+2014/08/22 15:24:59 [23745] building file list
+2014/08/22 15:24:59 [23745] sent 190 bytes  received 26 bytes  total size 228
+2014/08/22 15:25:59 [23755] building file list
+2014/08/22 15:26:00 [23755] sent 186 bytes  received 26 bytes  total size 228
+2014/08/22 15:26:59 [23768] building file list
+2014/08/22 15:26:59 [23768] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 15:26:59 [23768] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 15:26:59 [23768] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 15:26:59 [23768] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 15:26:59 [23768] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 15:26:59 [23768] sent 593 bytes  received 105 bytes  total size 228
+2014/08/22 15:30:21 [23785] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:30:21 [23785] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:31:01 [23796] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:31:01 [23796] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:33:50 [23807] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:33:50 [23807] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:38:26 [23831] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:38:26 [23831] rsync error: error in rsync protocol data stream (code 12) at io.c(226) [sender=3.1.0]
+2014/08/22 15:38:36 [23833] building file list
+2014/08/22 15:38:36 [23833] .d..t...... ./
+2014/08/22 15:38:36 [23833] <f+++++++++ APP1-23-08-12.tar.gz.1
+2014/08/22 15:38:36 [23833] <f+++++++++ APP1-23-08-12.tar.gz.2
+2014/08/22 15:38:36 [23833] <f+++++++++ APP1-23-08-12.tar.gz.3
+2014/08/22 15:38:36 [23833] <f+++++++++ APP1-23-08-12.tar.gz.4
+2014/08/22 15:38:36 [23833] <f+++++++++ Result2
+2014/08/22 15:38:36 [23833] <f+++++++++ SplittingScript
+2014/08/22 15:38:36 [23833] <f+++++++++ SplittingScript.sh
+2014/08/22 15:38:36 [23833] <f+++++++++ TranScript.sh
+2014/08/22 15:38:36 [23833] <f+++++++++ server.cfg
+2014/08/22 15:38:36 [23833] <f+++++++++ server.cfg~
+2014/08/22 15:38:36 [23833] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 15:38:36 [23833] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 15:38:36 [23833] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 15:38:36 [23833] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 15:38:36 [23833] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 15:38:36 [23833] sent 9,211 bytes  received 302 bytes  total size 7,802
+2014/08/22 15:38:42 [23842] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:38:42 [23842] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:38:53 [23844] building file list
+2014/08/22 15:38:53 [23844] <f.st...... Result2
+2014/08/22 15:38:53 [23844] sent 2,159 bytes  received 87 bytes  total size 9,180
+2014/08/22 15:39:39 [23854] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:39:39 [23854] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:39:49 [23857] building file list
+2014/08/22 15:39:49 [23857] <f.st...... Result2
+2014/08/22 15:39:49 [23857] <f.st...... TranScript.sh
+2014/08/22 15:39:49 [23857] sent 1,741 bytes  received 136 bytes  total size 9,540
+2014/08/22 15:43:24 [23869] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:43:24 [23869] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:43:34 [23872] building file list
+2014/08/22 15:43:34 [23872] .d..t...... ./
+2014/08/22 15:43:34 [23872] <f+++++++++ APP1-23-08-12.tar.gz.1
+2014/08/22 15:43:34 [23872] <f+++++++++ APP1-23-08-12.tar.gz.2
+2014/08/22 15:43:34 [23872] <f+++++++++ APP1-23-08-12.tar.gz.3
+2014/08/22 15:43:34 [23872] <f+++++++++ APP1-23-08-12.tar.gz.4
+2014/08/22 15:43:34 [23872] <f.st...... Result2
+2014/08/22 15:43:34 [23872] <f..t...... TranScript.sh
+2014/08/22 15:43:34 [23872] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 15:43:34 [23872] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 15:43:34 [23872] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 15:43:34 [23872] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 15:43:34 [23872] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 15:43:34 [23872] sent 2,884 bytes  received 298 bytes  total size 9,971
+2014/08/22 15:47:18 [23892] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:47:18 [23892] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:47:28 [23895] building file list
+2014/08/22 15:47:28 [23895] .d..t...... ./
+2014/08/22 15:47:28 [23895] <f+++++++++ APP1-23-08-12.tar.gz.1
+2014/08/22 15:47:28 [23895] <f+++++++++ APP1-23-08-12.tar.gz.2
+2014/08/22 15:47:28 [23895] <f+++++++++ APP1-23-08-12.tar.gz.3
+2014/08/22 15:47:28 [23895] <f+++++++++ APP1-23-08-12.tar.gz.4
+2014/08/22 15:47:28 [23895] <f+++++++++ Result2
+2014/08/22 15:47:28 [23895] <f+++++++++ SplittingScript
+2014/08/22 15:47:28 [23895] <f+++++++++ SplittingScript.sh
+2014/08/22 15:47:28 [23895] <f+++++++++ TranScript.sh
+2014/08/22 15:47:28 [23895] <f+++++++++ server.cfg
+2014/08/22 15:47:28 [23895] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 15:47:28 [23895] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 15:47:28 [23895] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 15:47:28 [23895] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 15:47:28 [23895] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 15:47:29 [23895] sent 12,365 bytes  received 283 bytes  total size 11,131
+2014/08/22 15:49:08 [23911] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:49:08 [23911] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:49:18 [23914] building file list
+2014/08/22 15:49:18 [23914] .d..t...... ./
+2014/08/22 15:49:18 [23914] <f+++++++++ APP1-23-08-12.tar.gz.1
+2014/08/22 15:49:18 [23914] <f+++++++++ APP1-23-08-12.tar.gz.2
+2014/08/22 15:49:18 [23914] <f+++++++++ APP1-23-08-12.tar.gz.3
+2014/08/22 15:49:18 [23914] <f+++++++++ APP1-23-08-12.tar.gz.4
+2014/08/22 15:49:18 [23914] <f+++++++++ Result2
+2014/08/22 15:49:18 [23914] <f+++++++++ SplittingScript
+2014/08/22 15:49:18 [23914] <f+++++++++ SplittingScript.sh
+2014/08/22 15:49:18 [23914] <f+++++++++ TranScript.sh
+2014/08/22 15:49:18 [23914] <f+++++++++ server.cfg
+2014/08/22 15:49:18 [23914] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 15:49:18 [23914] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 15:49:18 [23914] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 15:49:18 [23914] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 15:49:18 [23914] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 15:49:19 [23914] sent 13,688 bytes  received 287 bytes  total size 12,449
+2014/08/22 15:49:29 [23918] building file list
+2014/08/22 15:49:29 [23918] <f.st...... Result2
+2014/08/22 15:49:29 [23918] sent 1,712 bytes  received 129 bytes  total size 13,578
+2014/08/22 15:49:39 [23921] building file list
+2014/08/22 15:49:39 [23921] <f.st...... Result2
+2014/08/22 15:49:39 [23921] sent 1,195 bytes  received 135 bytes  total size 13,757
+2014/08/22 15:49:50 [23924] building file list
+2014/08/22 15:49:50 [23924] <f.st...... Result2
+2014/08/22 15:49:50 [23924] sent 1,373 bytes  received 135 bytes  total size 13,936
+2014/08/22 15:52:42 [23941] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:52:42 [23941] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:52:53 [23943] building file list
+2014/08/22 15:52:53 [23943] .d..t...... ./
+2014/08/22 15:52:53 [23943] <f+++++++++ APP1-23-08-12.tar.gz.1
+2014/08/22 15:52:53 [23943] <f+++++++++ APP1-23-08-12.tar.gz.2
+2014/08/22 15:52:53 [23943] <f+++++++++ APP1-23-08-12.tar.gz.3
+2014/08/22 15:52:53 [23943] <f+++++++++ APP1-23-08-12.tar.gz.4
+2014/08/22 15:52:53 [23943] <f+++++++++ Result2
+2014/08/22 15:52:53 [23943] <f+++++++++ SplittingScript
+2014/08/22 15:52:53 [23943] <f+++++++++ SplittingScript.sh
+2014/08/22 15:52:53 [23943] <f+++++++++ TranScript.sh
+2014/08/22 15:52:53 [23943] <f+++++++++ server.cfg
+2014/08/22 15:52:53 [23943] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 15:52:53 [23943] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 15:52:53 [23943] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 15:52:53 [23943] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 15:52:53 [23943] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 15:52:53 [23943] sent 15,576 bytes  received 283 bytes  total size 14,342
+2014/08/22 15:53:43 [23956] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:53:43 [23956] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:53:43 [23958] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:53:43 [23958] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:53:53 [23961] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:53:53 [23961] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:54:03 [23964] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:54:03 [23964] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:54:13 [23967] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 15:54:13 [23967] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 15:56:00 [23985] building file list
+2014/08/22 15:56:00 [23985] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 15:56:00 [23985] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 15:56:00 [23985] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 15:56:00 [23985] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 15:56:00 [23985] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 15:56:00 [23985] sent 593 bytes  received 105 bytes  total size 228
+2014/08/22 15:58:39 [23996] building file list
+2014/08/22 15:58:39 [23996] sent 190 bytes  received 26 bytes  total size 228
+2014/08/22 16:29:44 [24083] building file list
+2014/08/22 16:29:44 [24083] sent 190 bytes  received 26 bytes  total size 228
+2014/08/22 16:31:23 [24095] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 16:31:23 [24095] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 16:31:33 [24097] building file list
+2014/08/22 16:31:33 [24097] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 16:31:33 [24097] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 16:31:33 [24097] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 16:31:33 [24097] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 16:31:33 [24097] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 16:31:33 [24097] sent 593 bytes  received 105 bytes  total size 228
+2014/08/22 16:32:37 [24109] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 16:32:37 [24109] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 16:32:47 [24111] building file list
+2014/08/22 16:32:47 [24111] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 16:32:47 [24111] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 16:32:47 [24111] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 16:32:47 [24111] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 16:32:47 [24111] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 16:32:47 [24111] sent 593 bytes  received 105 bytes  total size 228
+2014/08/22 16:33:31 [24121] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 16:33:31 [24121] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 16:33:31 [24123] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 16:33:31 [24123] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 16:33:41 [24126] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 16:33:41 [24126] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 16:33:51 [24129] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 16:33:51 [24129] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 16:34:01 [24132] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 16:34:01 [24132] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 16:35:09 [24141] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 16:35:09 [24141] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 16:35:09 [24143] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 16:35:09 [24143] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 16:35:19 [24146] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 16:35:19 [24146] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 16:35:29 [24149] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 16:35:29 [24149] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/22 16:35:39 [24152] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/22 16:35:39 [24152] rsync error: error in rsync protocol data stream (code 12) at io.c(226) [sender=3.1.0]
+2014/08/22 17:32:48 [25733] building file list
+2014/08/22 17:32:48 [25733] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 17:32:48 [25733] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 17:32:48 [25733] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 17:32:48 [25733] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 17:32:48 [25733] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 17:32:48 [25733] sent 593 bytes  received 105 bytes  total size 228
+2014/08/22 17:32:58 [25741] building file list
+2014/08/22 17:32:58 [25741] <f+++++++++ APP1-23-08-12.tar.gz.1
+2014/08/22 17:32:58 [25741] sent 229 bytes  received 44 bytes  total size 100
+2014/08/22 17:33:08 [25745] building file list
+2014/08/22 17:33:08 [25745] <f+++++++++ APP1-23-08-12.tar.gz.2
+2014/08/22 17:33:08 [25745] sent 229 bytes  received 44 bytes  total size 100
+2014/08/22 17:33:19 [25748] building file list
+2014/08/22 17:33:19 [25748] <f+++++++++ APP1-23-08-12.tar.gz.3
+2014/08/22 17:33:19 [25748] sent 229 bytes  received 44 bytes  total size 100
+2014/08/22 17:33:29 [25751] building file list
+2014/08/22 17:33:29 [25751] <f+++++++++ APP1-23-08-12.tar.gz.4
+2014/08/22 17:33:29 [25751] sent 215 bytes  received 44 bytes  total size 86
+2014/08/22 17:53:13 [25807] building file list
+2014/08/22 17:53:13 [25807] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 17:53:13 [25807] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 17:53:13 [25807] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 17:53:13 [25807] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 17:53:13 [25807] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 17:53:14 [25807] sent 593 bytes  received 105 bytes  total size 228
+2014/08/22 17:53:24 [25816] building file list
+2014/08/22 17:53:24 [25816] <f+++++++++ APP1-23-08-12.tar.gz.1
+2014/08/22 17:53:24 [25816] sent 229 bytes  received 44 bytes  total size 100
+2014/08/22 17:53:34 [25820] building file list
+2014/08/22 17:53:34 [25820] <f+++++++++ APP1-23-08-12.tar.gz.2
+2014/08/22 17:53:34 [25820] sent 229 bytes  received 44 bytes  total size 100
+2014/08/22 17:53:45 [25868] building file list
+2014/08/22 17:53:45 [25868] <f+++++++++ APP1-23-08-12.tar.gz.3
+2014/08/22 17:53:45 [25868] sent 229 bytes  received 44 bytes  total size 100
+2014/08/22 17:53:55 [25872] building file list
+2014/08/22 17:53:55 [25872] <f+++++++++ APP1-23-08-12.tar.gz.4
+2014/08/22 17:53:55 [25872] sent 215 bytes  received 44 bytes  total size 86
+2014/08/22 18:03:51 [27375] building file list
+2014/08/22 18:03:51 [27375] cd+++++++++ APP1-23-08-12.tar.gz_MD5/
+2014/08/22 18:03:51 [27375] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.1_MD5
+2014/08/22 18:03:51 [27375] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.2_MD5
+2014/08/22 18:03:51 [27375] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.3_MD5
+2014/08/22 18:03:51 [27375] <f+++++++++ APP1-23-08-12.tar.gz_MD5/APP1-23-08-12.tar.gz.4_MD5
+2014/08/22 18:03:51 [27375] sent 593 bytes  received 105 bytes  total size 228
+2014/08/22 18:04:02 [27384] building file list
+2014/08/22 18:04:02 [27384] <f+++++++++ APP1-23-08-12.tar.gz.1
+2014/08/22 18:04:02 [27384] sent 229 bytes  received 44 bytes  total size 100
+2014/08/22 18:04:12 [27390] building file list
+2014/08/22 18:04:12 [27390] <f+++++++++ APP1-23-08-12.tar.gz.2
+2014/08/22 18:04:12 [27390] sent 229 bytes  received 44 bytes  total size 100
+2014/08/22 18:04:22 [27395] building file list
+2014/08/22 18:04:22 [27395] <f+++++++++ APP1-23-08-12.tar.gz.3
+2014/08/22 18:04:22 [27395] sent 229 bytes  received 44 bytes  total size 100
+2014/08/22 18:04:33 [27400] building file list
+2014/08/22 18:04:33 [27400] <f+++++++++ APP1-23-08-12.tar.gz.4
+2014/08/22 18:04:33 [27400] sent 215 bytes  received 44 bytes  total size 86
+2014/08/24 19:03:55 [3103] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:03:55 [3103] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:03:58 [3105] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:03:58 [3105] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:04:11 [3109] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:04:11 [3109] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:04:24 [3112] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:04:24 [3112] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:04:37 [3115] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:04:37 [3115] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:04:50 [3124] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:04:50 [3124] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:04:53 [3187] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:04:53 [3187] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:05:06 [3337] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:05:06 [3337] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:05:19 [3354] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:05:19 [3354] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:05:32 [3357] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:05:32 [3357] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:05:45 [3362] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:05:45 [3362] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:05:48 [3364] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:05:48 [3364] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:06:01 [3367] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:06:01 [3367] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:06:14 [3370] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:06:14 [3370] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:06:27 [3373] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:06:27 [3373] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:06:40 [3381] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:06:40 [3381] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:06:43 [3383] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:06:43 [3383] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:06:56 [3386] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:06:56 [3386] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:07:09 [3393] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:07:09 [3393] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:07:22 [3396] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:07:22 [3396] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:07:35 [3408] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:07:35 [3408] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:07:38 [3422] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:07:38 [3422] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:07:51 [3438] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:07:51 [3438] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:08:04 [3441] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:08:04 [3441] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:08:17 [3444] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/24 19:08:17 [3444] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/24 19:22:38 [4033] building file list
+2014/08/24 19:22:38 [4033] .d..t...... ./
+2014/08/24 19:22:38 [4033] <f+++++++++ Result2
+2014/08/24 19:22:38 [4033] <f+++++++++ SplittingScript
+2014/08/24 19:22:38 [4033] <f+++++++++ SplittingScript.sh
+2014/08/24 19:22:38 [4033] <f+++++++++ TranScript.sh
+2014/08/24 19:22:38 [4033] <f+++++++++ server.cfg
+2014/08/24 19:22:38 [4033] <f+++++++++ server.cfg~
+2014/08/24 19:22:39 [4033] sent 30,003 bytes  received 142 bytes  total size 29,468
+2014/08/24 19:24:37 [4048] building file list
+2014/08/24 19:24:37 [4048] .d..t...... ./
+2014/08/24 19:24:37 [4048] <f+++++++++ Result2
+2014/08/24 19:24:37 [4048] <f+++++++++ SplittingScript
+2014/08/24 19:24:37 [4048] <f+++++++++ SplittingScript.sh
+2014/08/24 19:24:37 [4048] <f+++++++++ TranScript.sh
+2014/08/24 19:24:37 [4048] <f+++++++++ server.cfg
+2014/08/24 19:24:38 [4048] sent 30,325 bytes  received 123 bytes  total size 29,963
+2014/08/24 19:28:09 [4088] building file list
+2014/08/24 19:28:09 [4088] .d..t...... ./
+2014/08/24 19:28:09 [4088] <f.st...... Result2
+2014/08/24 19:28:09 [4088] <f.st...... TranScript.sh
+2014/08/24 19:28:09 [4088] <f..t...... server.cfg
+2014/08/24 19:28:09 [4088] sent 1,843 bytes  received 349 bytes  total size 30,267
+2014/08/24 19:28:41 [4103] building file list
+2014/08/24 19:28:41 [4103] <f.st...... Result2
+2014/08/24 19:28:41 [4103] <f.st...... TranScript.sh
+2014/08/24 19:28:41 [4103] sent 2,096 bytes  received 321 bytes  total size 30,607
+2014/08/24 19:29:18 [4118] building file list
+2014/08/24 19:29:18 [4118] <f.st...... Result2
+2014/08/24 19:29:18 [4118] <f.st...... TranScript.sh
+2014/08/24 19:29:18 [4118] sent 1,606 bytes  received 327 bytes  total size 30,831
+2014/08/24 19:31:35 [4132] building file list
+2014/08/24 19:31:35 [4132] .d..t...... ./
+2014/08/24 19:31:35 [4132] <f+++++++++ Result2
+2014/08/24 19:31:35 [4132] <f+++++++++ SplittingScript
+2014/08/24 19:31:35 [4132] <f+++++++++ SplittingScript.sh
+2014/08/24 19:31:35 [4132] <f+++++++++ TranScript.sh
+2014/08/24 19:31:35 [4132] <f+++++++++ server.cfg
+2014/08/24 19:31:37 [4132] sent 31,539 bytes  received 123 bytes  total size 31,060

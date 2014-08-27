@@ -1,0 +1,188 @@
+#!/bin/bash
+. ./ServerConfigurationFIle.cfg
+
+##########################################Moving Files From Dblogs And Compressing Them##################################################################
+function Compress(){
+cd $WORK_DIR
+touch ShippingLog
+chmod 777 ShippingLog
+
+cd $DBLOGS_DIR
+chmod 777 File*
+
+cd $SHIPPEDLOG_DIR
+date_val=$(date +'%m_%d_%y_%T')
+tar cvzf $APP-date_val.tar.gz $DBLOGS_DIR
+if [[ $? -eq 0 ]]; then
+	#statements
+	echo "All Files have been moved Successfully"|
+	rm $DBLOGS_DIR/*
+fi
+cd $SHIPPEDLOG_DIR
+touch $APP-date_val.tar.gz_MD5
+md5sum $APP-date_val.tar.gz>$APP-date_val.tar.gz_MD5
+#cat APP1-23-08-12.tar.gz_MD5 >~/temp/Work/ShippingLog
+}
+##########################################Splitting Files And Calculating MD5################################################################
+cd ~/temp/Work/Middle
+split -b100 ~/temp/Work/ShippedLogs/APP1-23-08-12.tar.gz  APP1-23-08-12.tar.gz.
+i=1
+
+j="APP1-23-08-12.tar.gz"
+for file in APP1-23-08-12.tar.gz.*
+do
+    
+    mv "$file" "$j.$i"
+ #   md5sum "$j.$i"
+    i=`expr $i + 1` 
+done
+
+y=$(ls -l|awk '{print $9}'|grep APP1)
+#echo "Values in y is $y"
+
+for x in $y
+do
+#echo $x
+touch "$x"_MD5	
+md5sum "$x">"$x"_MD5
+done
+
+
+#!/bin/bash
+. ./server.cfg
+
+
+###############################Function To Check For Archieve in Logs Failed###########################################################
+FailedCheck(){
+	cd ~/temp/Work/LogFailed
+	records=$(ls|wc -l)
+	if [[ $records != 0 ]]; then
+		#statements
+		echo "Inside Function To Transfer Files"
+		mv ~/temp/Work/LogFailed/* ~/temp/Work/Middle
+	fi
+}
+#################################Function For Retrial Logic##################################################################################################
+ReTrial(){
+val=1
+while [[ $val -le 4 ]]; do
+	#statements
+	
+	echo "Value for Retrial Attempts is $val"
+rsync -a -i  -e ssh --bwlimit=20 --log-file=./Result2	  --timeout=5  $HOME_FOLDER/$1 $DEST_NAME@$DEST_IP:$DESTINATION_FOLDER
+
+Last_Rec=$?
+echo "Value for exit status is $Last_Rec"
+if [[ Last_Rec -eq 0 ]]; then
+	#statements
+	echo "Transfer Is SuccessFul..After Retrial"
+	return 0
+
+elif [[ Last_Rec -eq 23 ]]; then
+	#statements
+	echo "Error in local Directory Path"
+	return 1
+
+elif [[ Last_Rec -eq 11 ]]; then
+	echo "Error In Destination Directory Path"
+	return 1
+		#statements
+elif [[ Last_Rec -eq 255 ]]; then
+	#statements
+	echo "Remote Connection Is not establishing.."
+	sleep 10
+#	break
+
+fi
+val=$(($val+1))
+done
+
+if [[ $val -eq 5 ]]; then
+	#statements
+	echo "Transfer Was Not Successful..Even After Retrial!!!"
+    return 1
+fi
+
+}
+
+######################################################Function For Transfering#########################################################
+Transfer(){
+#rsync -a -i  -e ssh --bwlimit=20 --log-file=./Result2	  --timeout=5  /home/ubuntu/temp/Work/Middle/$1  $vikas2@$192.168.0.213:~/temp/Work/Middle
+
+####### Checking If File Has Already been Transferred#############
+echo $1|grep Sent
+pipe_v=${PIPESTATUS[1]}
+if [[ $pipe_v -eq 0 ]]; then
+	#statements
+	echo "File is Already Present,Don't Need To Resend"
+	mv $1 ~/temp/Work/LogsSuccess
+else
+
+########Transferring File To Remote Server#########################
+rsync -a -i  -e ssh --bwlimit=20 --log-file=./Result2	  --timeout=5  $HOME_FOLDER/$1 $DEST_NAME@$DEST_IP:$DESTINATION_FOLDER
+Last_Rec=$?
+echo "Inside Transfer"
+echo "Value for exit status is $Last_Rec"
+if [[ Last_Rec -eq 0 ]]; then
+	#statements
+	y="$1_Sent"
+	mv "$1" "$1_Sent"
+	echo  "Value for Y is " $y
+	#mv "$1" "$1"
+	echo "Transfer Is SuccessFul..Exiting This Loop"
+	mv $y ~/temp/Work/LogsSuccess
+
+	#statements
+#elif [[ Last_Rec -eq 20 ]]; then
+	#statements
+#	echo "Abrupt Ending Of Script"
+#	break
+
+else 
+   ReTrial $1
+   m=$?
+   echo "Value in Last Variab is $m"
+   if [[ $m == 0 ]]; then
+    #statements
+   	mv $1 ~/temp/Work/LogsSuccess
+   
+   else
+    mv $1 ~/temp/Work/LogFailed
+   
+   fi 
+fi
+
+fi
+
+}
+
+
+TransFerMD(){
+cd ~/temp/Work/Middle
+m=$(ls -l|awk '{print $9}'|grep MD5)
+echo "Inside TransferMD"
+Transfer $m
+}
+
+####################################Function To Transfer Archieves######################################################################
+TransferA(){
+cd ~/temp/Work/Middle
+p=$( ls -l|awk '{print $9}'|grep -v MD5|grep tar.gz)
+echo "Inside TransferMD"
+for x in $p
+do
+    Transfer $x
+	done
+}
+
+Email(){
+cd ~/temp/Work/LogsSuccess
+
+
+
+
+}
+
+FailedCheck
+TransFerMD
+TransferA

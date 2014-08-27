@@ -1,0 +1,13 @@
+2014/08/26 14:33:51 [16118] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/26 14:33:51 [16118] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/26 14:33:54 [16121] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/26 14:33:54 [16121] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/26 14:34:07 [16124] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2014/08/26 14:34:07 [16124] rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
+2014/08/26 14:34:35 [16136] building file list
+2014/08/26 14:34:35 [16136] cd+++++++++ APP108_26_14.tar.gz_MD5/
+2014/08/26 14:34:35 [16136] <f+++++++++ APP108_26_14.tar.gz_MD5/APP108_26_14.tar.gz.1_MD5
+2014/08/26 14:34:35 [16136] <f+++++++++ APP108_26_14.tar.gz_MD5/APP108_26_14.tar.gz.2_MD5
+2014/08/26 14:34:35 [16136] <f+++++++++ APP108_26_14.tar.gz_MD5/APP108_26_14.tar.gz.3_MD5
+2014/08/26 14:34:35 [16136] <f+++++++++ APP108_26_14.tar.gz_MD5/APP108_26_14.tar.gz.4_MD5
+2014/08/26 14:34:35 [16136] sent 590 bytes  received 105 bytes  total size 224

@@ -1,0 +1,4 @@
+DEST_IP="192.168.0.9"
+DEST_NAME="vikas2"
+HOME_FOLDER="$HOME/temp/Work/Middle"
+DESTINATION_FOLDER="/home/vikas2/temp/Work/Middle"

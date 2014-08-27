@@ -1,0 +1,2 @@
+cd ~/temp/Work/Middle
+split -b100 ~/temp/Work/ShippedLogs/APP1-23-08-12.tar.gz  APP1-23-08-12.tar.gz.part-

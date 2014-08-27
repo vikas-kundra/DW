@@ -1,0 +1,12 @@
+To:vikas2@192.168.0.213
+From:APP1
+Subject:Success Mail
+ List of files have been successfully Shiped SyccessFully
+
+  APP108_26_14.tar.gz.1_MD5 APP108_26_14.tar.gz.1 APP108_26_14.tar.gz.2_MD5 APP108_26_14.tar.gz.2 APP108_26_14.tar.gz.3_MD5 APP108_26_14.tar.gz.4
+
+List Of files which have failed during Transfer
+
+  APP108_26_14.tar.gz.3 APP108_26_14.tar.gz.4_MD5
+
+NUMBER OF ARCHIEVE SENT

@@ -1,0 +1,5 @@
+To:<DEST_NAME>@<DEST_IP>
+From:<SENDER_SERVER>
+Subject:Alert Email
+
+<MESSAGE>

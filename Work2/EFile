@@ -1,0 +1,12 @@
+To:<DEST_NAME>@<DEST_IP>
+From:<SENDER_SERVER>
+Subject:Success Mail
+ List of files have been successfully Shiped SyccessFully
+
+<FILES_SUCCESS>
+
+List Of files which have failed during Transfer
+
+<FILES_FAILED>
+
+NUMBER OF ARCHIEVE SENT

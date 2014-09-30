@@ -25,15 +25,14 @@ A dummy table Named Dummy_Table which will hold the dump of  TAB separated File
 bcp DW.dbo.DS3 in “/home/ubuntu/Downloads/DataDocument” -f Char.fmt -S <server_name> -U<user_name> -P<password>
 
 ###**Table Break Down**
-|        |       |       |        |        |
-|--------|-------|-------|--------|--------|
-|        |       |       |        |        |
-|        |       |       |        |        |
-|        |       |       |        |        |
-|        |       |       |        |        |
-|        |       |       |        |        |
-|        |       |       |        |        |
-|        |       |       |        |        |
+|                    |                    |                    |                    |                    |
+|--------------------|--------------------|--------------------|--------------------|--------------------|
+|                    |                    |                    |                    |                    |
+|                    |                    |                    |                    |                    |
+|                    |                    |                    |                    |                    |
+|                    |                    |                    |                    |                    |
+|                    |                    |                    |                    |                    |
+|                    |                    |                    |                    |                    |
 ###**Observation And Encoding**
 On Analysing table after dump, it was found that 1 row was missing in the Database.In order to find out that row Dealer_Id and Ro_Number were exported from table Dummy_Table in file ServerDB.Dealer Id and Ro Number were also imported from TAB separated file using awk command in file LocalDB.After that both files were sorted and compared with **DIFF** command, it was found that row having **Dealer Id=51018** and **Ro Number='18079875'** was missing.On analysing that row, it was detected that it was the presence of non Ascii character at the end of Description 2 which prevented TAB for getting detected.
 
